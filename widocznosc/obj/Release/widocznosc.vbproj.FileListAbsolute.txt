@@ -24,3 +24,7 @@ E:\Programowanie\CivilNET\widocznosc\widocznosc\obj\Release\widocznosc2.dll
 \\NASHOME\home\Programowanie\CivilNET\widocznosc\widocznosc\obj\Release\widocznosc.vbproj.AssemblyReference.cache
 \\NASHOME\home\Programowanie\CivilNET\widocznosc\widocznosc\obj\Release\widocznosc.vbproj.CoreCompileInputs.cache
 \\NASHOME\home\Programowanie\CivilNET\widocznosc\widocznosc\obj\Release\widocznosc2.dll
+D:\programowanie\C3D\widocznosc\widocznosc\obj\Release\widocznosc.vbproj.AssemblyReference.cache
+D:\programowanie\C3D\widocznosc\widocznosc\obj\Release\widocznosc.vbproj.CoreCompileInputs.cache
+D:\programowanie\C3D\widocznosc\widocznosc\obj\Release\widocznosc2.dll
+D:\programowanie\C3D\widocznosc\widocznosc\bin\Release\widocznosc2.dll
