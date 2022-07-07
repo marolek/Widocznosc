@@ -234,7 +234,7 @@ Namespace Widocznosc
                             End If
                         End Using
 
-                        Dim cieciwa As Line = funkcja.rysuj_linie(pkt1, IIf(trasa2D.GetDistAtPoint(pts3D(0)) > pozycja, pts3D(0), pts3D(1)))
+                        Dim cieciwa As Line = funkcja.rysuj_linie(pkt1, Ctype(IIf(trasa2D.GetDistAtPoint(pts3D(0)) > pozycja, pts3D(0), pts3D(1)), Point3d))
 
                         IDyObjektow.Add(cieciwa.ObjectId)  'rysuj_linie zwraca ObjectID -> kolekcja IDyObjektow
 
@@ -261,7 +261,7 @@ Namespace Widocznosc
 
                     'acDoc.Editor.WriteMessage(PktObwiedni.Count.ToString)
                     
-                    funkcja.zrob_blok(IDyObjektow, New Point3d(0, 0, 0), IIf(StalaOdl, String.Format("Widocznosc_{0}_", OdlWidocz), String.Format("Widocznosc_V{0}_", predkosc)))
+                    funkcja.zrob_blok(IDyObjektow, New Point3d(0, 0, 0), CStr(IIf(StalaOdl, String.Format("Widocznosc_{0}_", OdlWidocz), String.Format("Widocznosc_V{0}_", predkosc))))
                     IDyObjektow.Clear()
 
                 End Using  'unlockDocument
